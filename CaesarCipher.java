@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class CaesarCipher{
     public static String encrypt(String msg,int key){
+        
         String s = "";
         for(int i=0;i<msg.length();i++){
             if(msg.charAt(i)>=65&&msg.charAt(i)<=90){
